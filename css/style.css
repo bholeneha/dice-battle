@@ -1,0 +1,40 @@
+* { 
+    background-color: lightgrey;
+}
+
+div {
+    border: 1px solid black;
+    width: 40vw;
+    height: 400px;
+    justify-content: space-between;
+}
+
+h2 { 
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flx-col-ctr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 86vw;
+    height: 50px;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: rgb(215, 213, 213);
+}
+
+.winner {
+    font-size: 90px;
+    color: green;
+}
+
+
